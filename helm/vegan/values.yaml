@@ -33,6 +33,13 @@ vegan:
       repository: tjm1999/xm0091-frontend
       pullPolicy: IfNotPresent
       tag: 0.1
+    canary:
+      enabled: true
+      image:
+        replicaCount: 1
+        repository: tjm1999/xm0091-frontend
+        pullPolicy: IfNotPresent
+        tag: 0.2
   
 
 # global settings
@@ -40,3 +47,4 @@ podAnnotations: {}
 podLabels: {}
 autoscaling:
   enabled: false
+

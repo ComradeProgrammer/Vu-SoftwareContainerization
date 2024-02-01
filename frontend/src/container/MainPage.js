@@ -86,7 +86,7 @@ function MainPage() {
                 fontSize: 25,
                 textAlign: "center"
             }}>
-                TEST EXAMPLE
+                TEST EXAMPLE V2
             </div>
             <ConfigProvider
                 theme={{
