@@ -34,7 +34,7 @@ vegan:
       pullPolicy: IfNotPresent
       tag: 0.1
     canary:
-      enabled: true
+      enabled: false
       image:
         replicaCount: 1
         repository: tjm1999/xm0091-frontend

@@ -1,4 +1,4 @@
-{{ if .Values.vegan.frontend.canary  }}
+{{ if .Values.vegan.frontend.canary.enabled  }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
